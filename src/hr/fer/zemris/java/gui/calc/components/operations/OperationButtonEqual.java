@@ -10,22 +10,22 @@ import hr.fer.zemris.java.gui.calc.components.Display;
  * @author Mario Bobic
  */
 public class OperationButtonEqual extends AbstractButton {
-	/** Serialization UID. */
-	private static final long serialVersionUID = 1L;
+    /** Serialization UID. */
+    private static final long serialVersionUID = 1L;
 
-	/**
-	 * Constructs an instance of {@code OperationButtonEqual} and associates the
-	 * display with this button.
-	 * 
-	 * @param display display to be associated with this button
-	 */
-	public OperationButtonEqual(Display display) {
-		super(display, "=");
-	}
+    /**
+     * Constructs an instance of {@code OperationButtonEqual} and associates the
+     * display with this button.
+     *
+     * @param display display to be associated with this button
+     */
+    public OperationButtonEqual(Display display) {
+        super(display, "=");
+    }
 
-	@Override
-	protected void execute(Display display) {
-		display.executeOperation();
-	}
+    @Override
+    protected void execute(Display display) {
+        display.executeOperation();
+    }
 
 }

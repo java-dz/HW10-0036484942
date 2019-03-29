@@ -11,26 +11,26 @@ import hr.fer.zemris.java.gui.calc.components.Display;
  * @author Mario Bobic
  */
 public class MethodButtonPop extends AbstractButton {
-	/** Serialization UID. */
-	private static final long serialVersionUID = 1L;
+    /** Serialization UID. */
+    private static final long serialVersionUID = 1L;
 
-	/**
-	 * Constructs an instance of {@code MethodButtonPop} and associates the
-	 * display with this button.
-	 * 
-	 * @param display display to be associated with this button
-	 */
-	public MethodButtonPop(Display display) {
-		super(display, "pop");
-	}
+    /**
+     * Constructs an instance of {@code MethodButtonPop} and associates the
+     * display with this button.
+     *
+     * @param display display to be associated with this button
+     */
+    public MethodButtonPop(Display display) {
+        super(display, "pop");
+    }
 
-	@Override
-	protected void execute(Display display) {
-		try {
-			display.pop();
-		} catch (EmptyStackException e) {
-			display.showError("Stack empty");
-		}
-	}
+    @Override
+    protected void execute(Display display) {
+        try {
+            display.pop();
+        } catch (EmptyStackException e) {
+            display.showError("Stack empty");
+        }
+    }
 
 }

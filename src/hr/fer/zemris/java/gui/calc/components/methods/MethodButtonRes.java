@@ -9,22 +9,22 @@ import hr.fer.zemris.java.gui.calc.components.Display;
  * @author Mario Bobic
  */
 public class MethodButtonRes extends AbstractButton {
-	/** Serialization UID. */
-	private static final long serialVersionUID = 1L;
+    /** Serialization UID. */
+    private static final long serialVersionUID = 1L;
 
-	/**
-	 * Constructs an instance of {@code MethodButtonRes} and associates the
-	 * display with this button.
-	 * 
-	 * @param display display to be associated with this button
-	 */
-	public MethodButtonRes(Display display) {
-		super(display, "res");
-	}
+    /**
+     * Constructs an instance of {@code MethodButtonRes} and associates the
+     * display with this button.
+     *
+     * @param display display to be associated with this button
+     */
+    public MethodButtonRes(Display display) {
+        super(display, "res");
+    }
 
-	@Override
-	protected void execute(Display display) {
-		display.reset();
-	}
+    @Override
+    protected void execute(Display display) {
+        display.reset();
+    }
 
 }

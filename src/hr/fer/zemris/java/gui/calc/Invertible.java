@@ -9,19 +9,19 @@ package hr.fer.zemris.java.gui.calc;
  */
 public interface Invertible {
 
-	/**
-	 * Sets the state of this object to the specified boolean value.
-	 * 
-	 * @param inversed the state of the object to be set
-	 */
-	void setInversed(boolean inversed);
-	
-	/**
-	 * Returns <tt>true</tt> if state of the <tt>Invertible</tt> object is
-	 * <tt>inverted</tt>.
-	 * 
-	 * @return state of the <tt>Invertible</tt> object 
-	 */
-	boolean getInverted();
-	
+    /**
+     * Sets the state of this object to the specified boolean value.
+     *
+     * @param inversed the state of the object to be set
+     */
+    void setInversed(boolean inversed);
+
+    /**
+     * Returns <tt>true</tt> if state of the <tt>Invertible</tt> object is
+     * <tt>inverted</tt>.
+     *
+     * @return state of the <tt>Invertible</tt> object
+     */
+    boolean getInverted();
+
 }

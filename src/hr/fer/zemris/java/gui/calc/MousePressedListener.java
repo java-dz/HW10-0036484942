@@ -12,43 +12,43 @@ import java.awt.event.MouseEvent;
 @FunctionalInterface
 public interface MousePressedListener extends java.awt.event.MouseListener {
 
-	/**
-	 * {@inheritDoc}
-	 * <p>
-	 * Does nothing.
-	 */
-	@Override
-	default void mouseClicked(MouseEvent e) {
-	}
+    /**
+     * {@inheritDoc}
+     * <p>
+     * Does nothing.
+     */
+    @Override
+    default void mouseClicked(MouseEvent e) {
+    }
 
-	@Override
-	void mousePressed(MouseEvent e);
+    @Override
+    void mousePressed(MouseEvent e);
 
-	/**
-	 * {@inheritDoc}
-	 * <p>
-	 * Does nothing.
-	 */
-	@Override
-	default void mouseReleased(MouseEvent e) {
-	}
+    /**
+     * {@inheritDoc}
+     * <p>
+     * Does nothing.
+     */
+    @Override
+    default void mouseReleased(MouseEvent e) {
+    }
 
-	/**
-	 * {@inheritDoc}
-	 * <p>
-	 * Does nothing.
-	 */
-	@Override
-	default void mouseEntered(MouseEvent e) {
-	}
+    /**
+     * {@inheritDoc}
+     * <p>
+     * Does nothing.
+     */
+    @Override
+    default void mouseEntered(MouseEvent e) {
+    }
 
-	/**
-	 * {@inheritDoc}
-	 * <p>
-	 * Does nothing.
-	 */
-	@Override
-	default void mouseExited(MouseEvent e) {
-	}
+    /**
+     * {@inheritDoc}
+     * <p>
+     * Does nothing.
+     */
+    @Override
+    default void mouseExited(MouseEvent e) {
+    }
 
 }
